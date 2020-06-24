@@ -14,8 +14,13 @@ pip install youtube-search-with-api
 ```python
  from youtube_search_with_api import YoutubeSearch
 
-a = YoutubeSearch('backing track', 50).to_dict()
+YT_API = 'YOUR API'
 
-#first arg - search request, second - results count
+#first arg - search request, second - results count, third - api key
+a = YoutubeSearch('backing track', 50, YT_API).to_dict()
+
+#return json string
+a = YoutubeSearch('backing track', 50, YT_API).to_json()
+
 
 ```
