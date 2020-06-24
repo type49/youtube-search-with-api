@@ -7,12 +7,12 @@ Returns a list of videos with a dictionary in which the id, title and descriptio
 
 # Install 
 ```bash
-pip install youtube-search-with-api
+pip install youtube-video-search-with-api
 ```
 # Usage
 
 ```python
- from youtube_search_with_api import YoutubeSearch
+ from youtube-video-search-with-api import YoutubeSearch
 
 YT_API = 'YOUR API'
 
